@@ -145,4 +145,9 @@ const trueStringObject = [{
 
 
 // var material = $.getScript("script-numbers.js");
-console.log(trueStringObject[0]);
+
+var index = 0;
+var trueString = trueStringObject[index].trueString;
+var labeled = trueStringObject[index].labeled;
+var ordered = trueStringObject[index].ordered;
+
