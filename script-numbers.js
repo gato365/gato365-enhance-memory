@@ -1,4 +1,4 @@
-var trueStringObject = [{ 
+const trueStringObject = [{ 
    trueString: '27182818284590452353602874713526624977572',
    labeled: 'A',
    ordered: '1',
