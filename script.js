@@ -10,7 +10,12 @@ var stringColor;
 var outputString;
 var propCorrect;
 var propWrong;
-console.error(lengthOfString);
+var correctSolution = document.querySelector("#correct-solution");
+
+correctSolution .setAttribute('id', 'correct-solution');
+correctSolution .innerHTML = trueString;
+
+
 
 
 for (let i = 0; i <= lengthOfString; i++) {
